@@ -4,10 +4,11 @@
     display: grid;
     grid-template-rows: [title-s ] 100px [title-e courses-s] repeat(auto-fit, 1fr) [courses-e];
     grid-row-gap: 22px;
+    grid-row: 1/-1;
+    
 
     padding-left: 100px;
     padding-top: 100px;
-    margin-right: -50px;
     
     
     
